@@ -24,6 +24,10 @@ canvas.create_text(100, 50, text="text goes here", font=("Arial", 16))
 '''
 #Put your code here
 
+for i in range(3):
+    canvas.create_text(100, 50 + 30*i, text="ice cream", font=("Arial", 16))
+canvas.create_text(100, 50 + 90, text="banana", font=("Arial", 16))
+
 
 
 
